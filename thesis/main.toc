@@ -1,0 +1,141 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Current State of Linux and Hardware for Highly Concurrent Network-Bound Applications}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Concurrent Connections - From select to io\_uring and DPDK}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}select, non-blocking and the Reactor Pattern}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}epoll}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}io\_submit}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}io\_uring and the Proactor Pattern}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.5}Avoiding copies with MSG\_ZEROCOPY and sendfile}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MSG\_ZEROCOPY}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{sendfile}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.6}Linux Network Stack and User Space Network Drivers}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{User space network drivers}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Concurrency \& Parallelism in Data Plane Processing}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Pipeline Model}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Run-to-completion Model}{31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Impact of side-channel Attacks}{31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Lock-free Concurrent Queues and Memory Barriers}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Multiple-Producer, Multiple-Consumer Queue}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Fast User Space Locking with futex}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Practical Architectures \& Paradigms for Concurrency \& Parallelism in Highly Concurrent Network-Bound Applications}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Shared-Nothing vs. Shared-Something}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Essence}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Discussion}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}“Work around” non-delightful Transactions - A Case Study Of Transactions in Redis Cluster}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Thread-Per-Core and Amdahl’s law}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Work Distribution and Scheduling in Highly Concurrent Network-Bound Applications}{44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Producer-Consumer - Redis I/O threading}{47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Multithreaded Event Loop(s) - NGINX, KeyDB, libuv and co.}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Work Stealing Scheduling - Tokio}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Thread-Per-Core and io\_uring - Glommio}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Rust Futures and zero-cost async-await}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}SIMD for Network Applications}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Performance Evaluations - Methodology}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Approach}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Overview}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Candidates}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Performance Metrics}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Pre-Testing}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Methods}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Overview}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Hardware and Infrastructure}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Scripts}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Memtier benchmark configuration}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.5}Redis (Cluster) and KeyDB configuration}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.6}Mini-Redis configuration}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Analysis}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Overview}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Throughput}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Response times}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Performance Evaluations - Results}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Throughput}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Plots}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Key Observations}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Assumptions in Retrospect}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Response Time Percentiles}{85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Plots}{85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Key Observations}{95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Assumptions in Retrospect}{97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Assessment and Further Discussion}{97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusions}{99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Overview}{99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Principles when developing Highly Concurrent Network-Bound Applications}{100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Possible further developments in this field}{102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Concurrent Queues}{111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}SPSC Queue}{111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}MPMC Queue}{114}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Futex}{121}%

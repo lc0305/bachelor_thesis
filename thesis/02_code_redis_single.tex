@@ -1,0 +1,19 @@
+\begin{lstlisting}
+while !shutdown:
+    # process pending writes from queue
+    # on EAGAIN install write handler
+    handle_pending_writes(global_write_queue)
+    # using stateful event notification interface e.g. epoll
+    events = stateful_poll_wait(stateful_poll_fd, timeout)
+    # synchronous event demultiplexing
+    for event in events:
+        if event.fd == listener_fd:
+            event.fd.accept()
+        if event.mask & READABLE:
+            # when query is executed push result into the pending write queue
+            connections[event.fd].handle_read_event()
+        if event.mask & WRITABLE:
+            # interest is registered (rarely) if write was previously blocking
+            # due to level-triggered notifications
+            connections[event.fd].handle_write_event()
+\end{lstlisting}

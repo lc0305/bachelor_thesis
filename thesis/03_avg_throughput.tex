@@ -1,0 +1,15 @@
+\begin{table}
+    \centering
+    \begin{tabular}{c|cccc}
+        \toprule
+        Threads & Redis (I/O threading) & KeyDB & Mini-Redis (Tokio) & Redis Cluster \\
+        \midrule
+            2 &   28\% &   79\% &                40\% &           N/A \\
+            4 &   59\% &  185\% &               110\% &          234\% \\
+            8 &   73\% &  189\% &               185\% &          451\% \\
+            12 &   80\% &  179\% &               210\% &          585\% \\
+        \bottomrule
+    \end{tabular}        
+    \caption{Average (mean) throughput compared to reference point (single-threaded Redis) (Higher percentage is better)}
+    \label{tbl:table_avg_throughput}
+\end{table}

@@ -1,0 +1,2497 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{amazon:dynamo}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=58db271b3abe9fbf601ce11e80a691cd}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Giuseppe\bibnamedelima DeCandia},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stevenson, WA, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{58db271b3abe9fbf601ce11e80a691cd}
+      \strng{fullhash}{58db271b3abe9fbf601ce11e80a691cd}
+      \strng{bibnamehash}{58db271b3abe9fbf601ce11e80a691cd}
+      \strng{authorbibnamehash}{58db271b3abe9fbf601ce11e80a691cd}
+      \strng{authornamehash}{58db271b3abe9fbf601ce11e80a691cd}
+      \strng{authorfullhash}{58db271b3abe9fbf601ce11e80a691cd}
+      \field{extraname}{1}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SOSP 2007}
+      \field{title}{Dynamo: Amazon’s Highly Available Key-value Store}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.allthingsdistributed/files/amazon-dynamo-sosp2007.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.allthingsdistributed/files/amazon-dynamo-sosp2007.pdf
+      \endverb
+    \endentry
+    \entry{kagan:mmx}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a7b621c4d16ecfb2dbd1970229c196c6}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi Kagan},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \strng{fullhash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \strng{bibnamehash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \strng{authorbibnamehash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \strng{authornamehash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \strng{authorfullhash}{a7b621c4d16ecfb2dbd1970229c196c6}
+      \field{extraname}{2}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{3}
+      \field{series}{Intel Technology Journal}
+      \field{title}{MMX TM Microarchitecture of Pentium ® Processors With MMX Technology and Pentium ® II Microprocessors}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/research/1997-vol01-iss-3-intel-technology-journal.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/research/1997-vol01-iss-3-intel-technology-journal.pdf
+      \endverb
+    \endentry
+    \entry{prasad:server}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3f6c359bf3a2c1b4fb9b56d39896a5ec}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={S.\bibnamedelimi Vijay\bibnamedelima Prasad},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \strng{fullhash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \strng{bibnamehash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \strng{authorbibnamehash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \strng{authornamehash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \strng{authorfullhash}{3f6c359bf3a2c1b4fb9b56d39896a5ec}
+      \field{extraname}{3}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2277-8616}
+      \field{journaltitle}{International Journal of Scientific \& Technology Research}
+      \field{number}{12}
+      \field{title}{A Comparative Study Between Multi Queue Multi Server And Single Queue Multi Server Queuing System}
+      \field{volume}{8}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://www.ijstr.org/final-print/dec2019/A-Comparative-Study-Between-Multi-Queue-Multi-Server-And-Single-Queue-Multi-Server-Queuing-System.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ijstr.org/final-print/dec2019/A-Comparative-Study-Between-Multi-Queue-Multi-Server-And-Single-Queue-Multi-Server-Queuing-System.pdf
+      \endverb
+    \endentry
+    \entry{acm:linux_perf}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a4c2db01c53400e34a4416f65dadc1d8}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Xiang\bibnamedelima Ren},
+           giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Huntsville, Ontario, Canada}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \strng{fullhash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \strng{bibnamehash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \strng{authorbibnamehash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \strng{authornamehash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \strng{authorfullhash}{a4c2db01c53400e34a4416f65dadc1d8}
+      \field{extraname}{4}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th ACM Symposium on Operating Systems Principles}
+      \field{isbn}{978-1-4503-6873-5/19/10}
+      \field{series}{SOSP '19}
+      \field{title}{An Analysis of Performance Evolution of Linux's Core Operations}
+      \field{year}{2019}
+      \field{pages}{554\bibrangedash 569}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/3341301.3359640
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3341301.3359640
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3341301.3359640
+      \endverb
+      \keyw{performance evolution,Linux,operating systems}
+    \endentry
+    \entry{andre:tokio}{online}{}
+      \name{author}{1}{}{%
+        {{hash=49d7d1d198c465c4221282ab5ee164bd}{%
+           family={André},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blogpost on dev.to}%
+      }
+      \strng{namehash}{49d7d1d198c465c4221282ab5ee164bd}
+      \strng{fullhash}{49d7d1d198c465c4221282ab5ee164bd}
+      \strng{bibnamehash}{49d7d1d198c465c4221282ab5ee164bd}
+      \strng{authorbibnamehash}{49d7d1d198c465c4221282ab5ee164bd}
+      \strng{authornamehash}{49d7d1d198c465c4221282ab5ee164bd}
+      \strng{authorfullhash}{49d7d1d198c465c4221282ab5ee164bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{[Online; accessed 16-Febuary-2021]}
+      \field{title}{Rust vs Go - Load testing webserv (>400k req/s)}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l
+      \endverb
+      \verb{url}
+      \verb https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l
+      \endverb
+    \endentry
+    \entry{arm:v8}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=e9acd197eb5862aa57a96cf0c254d179}{%
+           family={ARM®},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ARM®}%
+      }
+      \strng{namehash}{e9acd197eb5862aa57a96cf0c254d179}
+      \strng{fullhash}{e9acd197eb5862aa57a96cf0c254d179}
+      \strng{bibnamehash}{e9acd197eb5862aa57a96cf0c254d179}
+      \strng{editorbibnamehash}{e9acd197eb5862aa57a96cf0c254d179}
+      \strng{editornamehash}{e9acd197eb5862aa57a96cf0c254d179}
+      \strng{editorfullhash}{e9acd197eb5862aa57a96cf0c254d179}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{chapter}{6.3 Memory access instructions, 14.1 Multi-processing systems}
+      \field{note}{[Online; accessed 27-January-2021]}
+      \field{title}{Programmer’s Guide for ARMv8-A}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://documentation-service.arm.com/static/5fbd26f271eff94ef49c7020
+      \endverb
+      \verb{url}
+      \verb https://documentation-service.arm.com/static/5fbd26f271eff94ef49c7020
+      \endverb
+    \endentry
+    \entry{bendersky:context}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f4d61dab20ec9ccc9e379214e9969df5}{%
+           family={Bendersky},
+           familyi={B\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \strng{fullhash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \strng{bibnamehash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \strng{authorbibnamehash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \strng{authornamehash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \strng{authorfullhash}{f4d61dab20ec9ccc9e379214e9969df5}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 02-February-2021]}
+      \field{title}{Measuring context switching and memory overheads for Linux threads}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://eli.thegreenplace.net/2018/measuring-context-switching-and-memory-overheads-for-linux-threads/
+      \endverb
+      \verb{url}
+      \verb https://eli.thegreenplace.net/2018/measuring-context-switching-and-memory-overheads-for-linux-threads/
+      \endverb
+    \endentry
+    \entry{bahe:garbage_collection}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=dd7024d461dddb1698734267bd42da5e}{%
+           family={C.Baker},
+           familyi={C\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+        {{hash=1c0e112479c525f05924aba5fa22ac9d}{%
+           family={Hewitt},
+           familyi={H\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rochester, N.Y., USA}%
+      }
+      \list{publisher}{1}{%
+        {Massachusetts Institute of Technology Artificial Intelligence Laboratory}%
+      }
+      \strng{namehash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \strng{fullhash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \strng{bibnamehash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \strng{authorbibnamehash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \strng{authornamehash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \strng{authorfullhash}{3f4f97bc23499839ec22f29a6ac07c66}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AI PL Conference}
+      \field{month}{8}
+      \field{series}{AI Working Paper 149}
+      \field{title}{The Incremental Garbage Collection of Processes}
+      \field{year}{1977}
+      \verb{urlraw}
+      \verb https://core.ac.uk/download/pdf/4406556.pdf
+      \endverb
+      \verb{url}
+      \verb https://core.ac.uk/download/pdf/4406556.pdf
+      \endverb
+    \endentry
+    \entry{alibaba:redis}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=63ef26c289063d355f44417fbcabf3d9}{%
+           family={Cloud},
+           familyi={C\bibinitperiod},
+           given={Alibaba},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {alibabacloud.com}%
+      }
+      \strng{namehash}{63ef26c289063d355f44417fbcabf3d9}
+      \strng{fullhash}{63ef26c289063d355f44417fbcabf3d9}
+      \strng{bibnamehash}{63ef26c289063d355f44417fbcabf3d9}
+      \strng{editorbibnamehash}{63ef26c289063d355f44417fbcabf3d9}
+      \strng{editornamehash}{63ef26c289063d355f44417fbcabf3d9}
+      \strng{editorfullhash}{63ef26c289063d355f44417fbcabf3d9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 03-December-2020]}
+      \field{title}{Improving Redis Performance through Multi-Thread Processing}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.alibabacloud.com/blog/improving-redis-performance-through-multi-thread-processing_594150
+      \endverb
+      \verb{url}
+      \verb https://www.alibabacloud.com/blog/improving-redis-performance-through-multi-thread-processing_594150
+      \endverb
+    \endentry
+    \entry{doc:swisstable}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=07b1af2f37db705395fb8e7d5203aba3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Abseil},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{07b1af2f37db705395fb8e7d5203aba3}
+      \strng{fullhash}{07b1af2f37db705395fb8e7d5203aba3}
+      \strng{bibnamehash}{07b1af2f37db705395fb8e7d5203aba3}
+      \strng{editorbibnamehash}{07b1af2f37db705395fb8e7d5203aba3}
+      \strng{editornamehash}{07b1af2f37db705395fb8e7d5203aba3}
+      \strng{editorfullhash}{07b1af2f37db705395fb8e7d5203aba3}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 03-February-2021]}
+      \field{title}{Swiss Tables Design Notes}
+      \verb{urlraw}
+      \verb https://abseil.io/about/design/swisstables#swiss-tables-design-notes
+      \endverb
+      \verb{url}
+      \verb https://abseil.io/about/design/swisstables#swiss-tables-design-notes
+      \endverb
+    \endentry
+    \entry{soft:actix}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=8c2b20b2575ecd3d1f89bb9a4e36a346}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={ACTIX},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \strng{fullhash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \strng{bibnamehash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \strng{editorbibnamehash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \strng{editornamehash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \strng{editorfullhash}{8c2b20b2575ecd3d1f89bb9a4e36a346}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{actix}
+      \field{version}{0.10.0}
+      \verb{urlraw}
+      \verb https://github.com/actix/actix
+      \endverb
+      \verb{url}
+      \verb https://github.com/actix/actix
+      \endverb
+    \endentry
+    \entry{man:crate_future}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=c5cc91205bad28d8021544cc77c12b49}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Future\bibnamedelima Crate},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5cc91205bad28d8021544cc77c12b49}
+      \strng{fullhash}{c5cc91205bad28d8021544cc77c12b49}
+      \strng{bibnamehash}{c5cc91205bad28d8021544cc77c12b49}
+      \strng{editorbibnamehash}{c5cc91205bad28d8021544cc77c12b49}
+      \strng{editornamehash}{c5cc91205bad28d8021544cc77c12b49}
+      \strng{editorfullhash}{c5cc91205bad28d8021544cc77c12b49}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 19-January-2021]}
+      \field{title}{{Crate futures}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://docs.rs/futures/0.3.12/futures/
+      \endverb
+      \verb{url}
+      \verb https://docs.rs/futures/0.3.12/futures/
+      \endverb
+    \endentry
+    \entry{doc:gcc_vec}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=859681d47541cfacf42761a11a806aa9}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={GCC},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{859681d47541cfacf42761a11a806aa9}
+      \strng{fullhash}{859681d47541cfacf42761a11a806aa9}
+      \strng{bibnamehash}{859681d47541cfacf42761a11a806aa9}
+      \strng{editorbibnamehash}{859681d47541cfacf42761a11a806aa9}
+      \strng{editornamehash}{859681d47541cfacf42761a11a806aa9}
+      \strng{editorfullhash}{859681d47541cfacf42761a11a806aa9}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 09-February-2021]}
+      \field{title}{Auto-vectorization in GCC}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://gcc.gnu.org/projects/tree-ssa/vectorization.html
+      \endverb
+      \verb{url}
+      \verb https://gcc.gnu.org/projects/tree-ssa/vectorization.html
+      \endverb
+    \endentry
+    \entry{linux:io_uring}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{Efficient IO with io\_uring}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://kernel.dk/io_uring.pdf
+      \endverb
+      \verb{url}
+      \verb https://kernel.dk/io_uring.pdf
+      \endverb
+    \endentry
+    \entry{man:epoll}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{epoll(7) — Linux manual page}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man7/epoll.7.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man7/epoll.7.html
+      \endverb
+    \endentry
+    \entry{man:futex}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 16-Febuary-2021]}
+      \field{title}{futex(2) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/futex.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/futex.2.html
+      \endverb
+    \endentry
+    \entry{man:io_submit}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{io\_submit(2) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/io_submit.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/io_submit.2.html
+      \endverb
+    \endentry
+    \entry{linux:zerocopy}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{MSG\_ZEROCOPY}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://github.com/torvalds/linux/blob/master/Documentation/networking/msg_zerocopy.rst
+      \endverb
+      \verb{url}
+      \verb https://github.com/torvalds/linux/blob/master/Documentation/networking/msg_zerocopy.rst
+      \endverb
+    \endentry
+    \entry{linux:networking}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The kernel development community}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{authorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{authornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{authorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{10}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{Networking}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://linux-kernel-labs.github.io/refs/heads/master/labs/networking.html
+      \endverb
+      \verb{url}
+      \verb https://linux-kernel-labs.github.io/refs/heads/master/labs/networking.html
+      \endverb
+    \endentry
+    \entry{man:poll}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{11}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{poll(2) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/poll.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/poll.2.html
+      \endverb
+    \endentry
+    \entry{man:select}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{12}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{select(2) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/select.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/select.2.html
+      \endverb
+    \endentry
+    \entry{man:sendfile}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{13}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{sendfile(2) — Linux manual page}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/sendfile.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/sendfile.2.html
+      \endverb
+    \endentry
+    \entry{man:signalfd}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{14}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 7-January-2021]}
+      \field{title}{signalfd(7) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man2/signalfd.2.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man2/signalfd.2.html
+      \endverb
+    \endentry
+    \entry{man:socket}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=f18852000e16216b2000527fc3e6c213}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Linux},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{fullhash}{f18852000e16216b2000527fc3e6c213}
+      \strng{bibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorbibnamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editornamehash}{f18852000e16216b2000527fc3e6c213}
+      \strng{editorfullhash}{f18852000e16216b2000527fc3e6c213}
+      \field{extraname}{15}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{socket(7) — Linux manual page}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://man7.org/linux/man-pages/man7/socket.7.html
+      \endverb
+      \verb{url}
+      \verb https://man7.org/linux/man-pages/man7/socket.7.html
+      \endverb
+    \endentry
+    \entry{doc:llvm_vec}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=6c46d6a7c1b8b0b44ec74ec24fe462af}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={LLVM},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \strng{fullhash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \strng{bibnamehash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \strng{editorbibnamehash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \strng{editornamehash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \strng{editorfullhash}{6c46d6a7c1b8b0b44ec74ec24fe462af}
+      \field{extraname}{16}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 09-February-2021]}
+      \field{title}{Auto-Vectorization in LLVM}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://llvm.org/docs/Vectorizers.html
+      \endverb
+      \verb{url}
+      \verb https://llvm.org/docs/Vectorizers.html
+      \endverb
+    \endentry
+    \entry{rust:asyncbook}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=6a1f45d3799453b49812d292c95eaef1}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Rust-Lang},
+           giveni={R\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rust Foundation}%
+      }
+      \strng{namehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{fullhash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{bibnamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editorbibnamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editornamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editorfullhash}{6a1f45d3799453b49812d292c95eaef1}
+      \field{extraname}{17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{chapter}{2.2 Task Wakeups with Waker}
+      \field{note}{[Online; accessed 27-January-2021]}
+      \field{title}{Asynchronous Programming in Rust}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
+      \endverb
+      \verb{url}
+      \verb https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
+      \endverb
+    \endentry
+    \entry{man:std_future}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=6a1f45d3799453b49812d292c95eaef1}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Rust-Lang},
+           giveni={R\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{fullhash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{bibnamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editorbibnamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editornamehash}{6a1f45d3799453b49812d292c95eaef1}
+      \strng{editorfullhash}{6a1f45d3799453b49812d292c95eaef1}
+      \field{extraname}{18}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 19-January-2021]}
+      \field{title}{Trait std::future::Future}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://docs.rs/rustc-std-workspace-std/1.0.1/std/future/trait.Future.html
+      \endverb
+      \verb{url}
+      \verb https://docs.rs/rustc-std-workspace-std/1.0.1/std/future/trait.Future.html
+      \endverb
+    \endentry
+    \entry{wikipedia:futures}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=c2897d4738d8fd643743ca427344b1f3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {wikipedia.org}%
+      }
+      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editornamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editorfullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \field{extraname}{19}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 02-January-2021]}
+      \field{title}{Futures and promises}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Futures_and_promises
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Futures_and_promises
+      \endverb
+    \endentry
+    \entry{wikipedia:shared_nothing}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=c2897d4738d8fd643743ca427344b1f3}{%
+           family={Contributors},
+           familyi={C\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {wikipedia.org}%
+      }
+      \strng{namehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{fullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{bibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editorbibnamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editornamehash}{c2897d4738d8fd643743ca427344b1f3}
+      \strng{editorfullhash}{c2897d4738d8fd643743ca427344b1f3}
+      \field{extraname}{20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{{Shared-nothing architecture}}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Shared-nothing_architecture
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Shared-nothing_architecture
+      \endverb
+    \endentry
+    \entry{coru:device_drivers}{book}{}
+      \name{author}{2}{}{%
+        {{hash=729670cd9d39b9b575390147a29d51d7}{%
+           family={Corbet},
+           familyi={C\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=548a2260c8f6dbadc0d85dfad02ba349}{%
+           family={Rubini},
+           familyi={R\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly}%
+      }
+      \strng{namehash}{771ef4fe9917c9583efea72ce305f7f1}
+      \strng{fullhash}{771ef4fe9917c9583efea72ce305f7f1}
+      \strng{bibnamehash}{771ef4fe9917c9583efea72ce305f7f1}
+      \strng{authorbibnamehash}{771ef4fe9917c9583efea72ce305f7f1}
+      \strng{authornamehash}{771ef4fe9917c9583efea72ce305f7f1}
+      \strng{authorfullhash}{771ef4fe9917c9583efea72ce305f7f1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780596000080}
+      \field{title}{Linux Device Drivers, Second Edition}
+      \field{year}{2001}
+      \field{pages}{425\bibrangedash 469}
+      \range{pages}{45}
+    \endentry
+    \entry{glommio:ebpf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d8be7365296a4f7ee32b004a1df6b31b}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Glauber},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \strng{fullhash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \strng{bibnamehash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \strng{authorbibnamehash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \strng{authornamehash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \strng{authorfullhash}{d8be7365296a4f7ee32b004a1df6b31b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{note}{[Online; accessed 01-February-2021]}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://github.com/DataDog/glommio/issues/237
+      \endverb
+      \verb{url}
+      \verb https://github.com/DataDog/glommio/issues/237
+      \endverb
+    \endentry
+    \entry{redislabs:rollback}{online}{}
+      \name{author}{1}{}{%
+        {{hash=70db640c793bb323b713e9b050ecb5bd}{%
+           family={Cro},
+           familyi={C\bibinitperiod},
+           given={Loris},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {redislabs.com}%
+      }
+      \strng{namehash}{70db640c793bb323b713e9b050ecb5bd}
+      \strng{fullhash}{70db640c793bb323b713e9b050ecb5bd}
+      \strng{bibnamehash}{70db640c793bb323b713e9b050ecb5bd}
+      \strng{authorbibnamehash}{70db640c793bb323b713e9b050ecb5bd}
+      \strng{authornamehash}{70db640c793bb323b713e9b050ecb5bd}
+      \strng{authorfullhash}{70db640c793bb323b713e9b050ecb5bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 30-November-2020]}
+      \field{title}{You Don't Need Transaction Rollbacks in Redis}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://redislabs.com/blog/you-dont-need-transaction-rollbacks-in-redis/
+      \endverb
+      \verb{url}
+      \verb https://redislabs.com/blog/you-dont-need-transaction-rollbacks-in-redis/
+      \endverb
+    \endentry
+    \entry{soft:deno}{software}{}
+      \name{author}{1}{}{%
+        {{hash=ff3d81d448b4b577bd4bd5c9860b00a3}{%
+           family={Dahl},
+           familyi={D\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \strng{fullhash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \strng{bibnamehash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \strng{authorbibnamehash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \strng{authornamehash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \strng{authorfullhash}{ff3d81d448b4b577bd4bd5c9860b00a3}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{deno}
+      \field{version}{1.7.2}
+      \verb{urlraw}
+      \verb https://github.com/denoland/deno
+      \endverb
+      \verb{url}
+      \verb https://github.com/denoland/deno
+      \endverb
+    \endentry
+    \entry{soft:glommio}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=c405d3e73838941823ee8733cb31fc84}{%
+           family={DataDog},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c405d3e73838941823ee8733cb31fc84}
+      \strng{fullhash}{c405d3e73838941823ee8733cb31fc84}
+      \strng{bibnamehash}{c405d3e73838941823ee8733cb31fc84}
+      \strng{editorbibnamehash}{c405d3e73838941823ee8733cb31fc84}
+      \strng{editornamehash}{c405d3e73838941823ee8733cb31fc84}
+      \strng{editorfullhash}{c405d3e73838941823ee8733cb31fc84}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{glommio}
+      \field{version}{0.2.0-alpha}
+      \verb{urlraw}
+      \verb https://github.com/DataDog/glommio
+      \endverb
+      \verb{url}
+      \verb https://github.com/DataDog/glommio
+      \endverb
+    \endentry
+    \entry{drepper:futex}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdb9c3658f483c939f0f649e51d31f2a}{%
+           family={Drepper},
+           familyi={D\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Red Hat, Inc}%
+      }
+      \strng{namehash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \strng{fullhash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \strng{bibnamehash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \strng{authorbibnamehash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \strng{authornamehash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \strng{authorfullhash}{bdb9c3658f483c939f0f649e51d31f2a}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{note}{[Online; accessed 18-February-2021]}
+      \field{title}{Futexes Are Tricky}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://dept-info.labri.fr/~denis/Enseignement/2008-IR/Articles/01-futex.pdf
+      \endverb
+      \verb{url}
+      \verb https://dept-info.labri.fr/~denis/Enseignement/2008-IR/Articles/01-futex.pdf
+      \endverb
+    \endentry
+    \entry{intel:packet}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2f15c596498379bbcd3d3508be197f90}{%
+           family={Dumitrescu},
+           familyi={D\bibinitperiod},
+           given={Cristian\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{2f15c596498379bbcd3d3508be197f90}
+      \strng{fullhash}{2f15c596498379bbcd3d3508be197f90}
+      \strng{bibnamehash}{2f15c596498379bbcd3d3508be197f90}
+      \strng{authorbibnamehash}{2f15c596498379bbcd3d3508be197f90}
+      \strng{authornamehash}{2f15c596498379bbcd3d3508be197f90}
+      \strng{authorfullhash}{2f15c596498379bbcd3d3508be197f90}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{Design Patterns for Packet Processing Applications on Multi-core Intel® Architecture Processors}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-multicore-packet-processing-paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-multicore-packet-processing-paper.pdf
+      \endverb
+    \endentry
+    \entry{peassa:thread_per_core}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=152fc4a1a7939a624c6d7b7a010e9587}{%
+           family={Enberg},
+           familyi={E\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8852381f29f2a7754f6f760060d18200}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashwin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e935e5d3dbf7bbbe18aab2f618b1b740}{%
+           family={Tarkoma},
+           familyi={T\bibinitperiod},
+           given={Sasu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \strng{fullhash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \strng{bibnamehash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \strng{authorbibnamehash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \strng{authornamehash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \strng{authorfullhash}{8d0715b68d4b92a8a9e912aa2851add4}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Architectures for Networking and Communications Systems (ANCS),2019 ACM/IEEE Symposium on}
+      \field{isbn}{978-1-7281-4388-0}
+      \field{note}{2019 ACM/IEEE Symposium on Architectures for Networking and Communications Systems, ANCS ; Conference date: 24-09-2019 Through 25-09-2019}
+      \field{title}{The Impact of Thread-Per-Core Architecture on Application Tail Latency}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ANCS.2019.8901874
+      \endverb
+      \keyw{113 Computer and information sciences}
+    \endentry
+    \entry{lwn:ebpf}{article}{}
+      \name{author}{1}{}{%
+        {{hash=526b4ace48f7a2bf127402b357123e38}{%
+           family={Fleming},
+           familyi={F\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LWN.net}%
+      }
+      \strng{namehash}{526b4ace48f7a2bf127402b357123e38}
+      \strng{fullhash}{526b4ace48f7a2bf127402b357123e38}
+      \strng{bibnamehash}{526b4ace48f7a2bf127402b357123e38}
+      \strng{authorbibnamehash}{526b4ace48f7a2bf127402b357123e38}
+      \strng{authornamehash}{526b4ace48f7a2bf127402b357123e38}
+      \strng{authorfullhash}{526b4ace48f7a2bf127402b357123e38}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 18-January-2021]}
+      \field{title}{A thorough introduction to eBPF}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://lwn.net/Articles/740157/
+      \endverb
+      \verb{url}
+      \verb https://lwn.net/Articles/740157/
+      \endverb
+    \endentry
+    \entry{henpat:computer_arch}{book}{}
+      \name{author}{2}{}{%
+        {{hash=4a72d9e0de431dadafab463df2ea7b0f}{%
+           family={Hennessy},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=95486d328725c1c6a933929c9442fe2a}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{fullhash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{bibnamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authorbibnamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authornamehash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \strng{authorfullhash}{f7c6979c0d2d2afa03b2d508432d429d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780123838728}
+      \field{title}{Computer Architecture: A Quantitative Approach}
+      \field{year}{2012}
+      \field{pages}{262\bibrangedash 287}
+      \range{pages}{26}
+    \endentry
+    \entry{herlihy:art_of_mp}{book}{}
+      \name{author}{2}{}{%
+        {{hash=dec3948f0497f5447bae5c2365b87e8f}{%
+           family={Herlihy},
+           familyi={H\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3e2aee6574e3dcbdbc582166218008cb}{%
+           family={Shavit},
+           familyi={S\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \strng{fullhash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \strng{bibnamehash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \strng{authorbibnamehash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \strng{authornamehash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \strng{authorfullhash}{7d85b068d0a7584e6818b95a7c1976f6}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780124159501}
+      \field{title}{The Art of Multiprocessor Programming}
+      \field{year}{2008}
+      \field{pages}{13\bibrangedash 14\bibrangessep 45\bibrangedash 48\bibrangessep 63\bibrangessep 223\bibrangedash 238\bibrangessep 369\bibrangedash 391\bibrangessep 473\bibrangedash 476}
+      \range{pages}{50}
+    \endentry
+    \entry{intel:soaaos}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=890c42ffc9d549f087f9343a3a188b46}{%
+           family={Intel®},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{fullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{bibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorbibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editornamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorfullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 09-February-2021]}
+      \field{title}{How to Manipulate Data Structure to Optimize Memory Use on 32-Bit Intel® Architecture}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://software.intel.com/content/www/us/en/develop/articles/how-to-manipulate-data-structure-to-optimize-memory-use-on-32-bit-intel-architecture.html
+      \endverb
+      \verb{url}
+      \verb https://software.intel.com/content/www/us/en/develop/articles/how-to-manipulate-data-structure-to-optimize-memory-use-on-32-bit-intel-architecture.html
+      \endverb
+    \endentry
+    \entry{intel:memory_order}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=890c42ffc9d549f087f9343a3a188b46}{%
+           family={Intel®},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{fullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{bibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorbibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editornamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorfullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 10-January-2021]}
+      \field{title}{Intel® 64 Architecture Memory Ordering White Paper}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb http://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf
+      \endverb
+    \endentry
+    \entry{man:avx}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=890c42ffc9d549f087f9343a3a188b46}{%
+           family={Intel®},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{fullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{bibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorbibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editornamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorfullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 09-February-2021]}
+      \field{title}{Intel® Advanced Vector Extensions Programming Reference}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://software.intel.com/sites/default/files/4f/5b/36945
+      \endverb
+      \verb{url}
+      \verb https://software.intel.com/sites/default/files/4f/5b/36945
+      \endverb
+    \endentry
+    \entry{intel:8256}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=890c42ffc9d549f087f9343a3a188b46}{%
+           family={Intel®},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Intel® Corporation}%
+      }
+      \strng{namehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{fullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{bibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorbibnamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editornamehash}{890c42ffc9d549f087f9343a3a188b46}
+      \strng{editorfullhash}{890c42ffc9d549f087f9343a3a188b46}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{chapter}{2.3 Microarchitecture}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{PCIe* GbE Controllers Open Source Software Developer’s Manual}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/manuals/pcie-gbe-controllers-open-source-manual.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.intel.com/content/dam/www/public/us/en/documents/manuals/pcie-gbe-controllers-open-source-manual.pdf
+      \endverb
+    \endentry
+    \entry{kegel:c10k}{online}{}
+      \name{author}{1}{}{%
+        {{hash=09c993d579bd37df9a9c8679249f2383}{%
+           family={Kegel},
+           familyi={K\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {kegel.com}%
+      }
+      \strng{namehash}{09c993d579bd37df9a9c8679249f2383}
+      \strng{fullhash}{09c993d579bd37df9a9c8679249f2383}
+      \strng{bibnamehash}{09c993d579bd37df9a9c8679249f2383}
+      \strng{authorbibnamehash}{09c993d579bd37df9a9c8679249f2383}
+      \strng{authornamehash}{09c993d579bd37df9a9c8679249f2383}
+      \strng{authorfullhash}{09c993d579bd37df9a9c8679249f2383}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 19-December-2020]}
+      \field{title}{The C10K problem}
+      \field{year}{1999}
+      \verb{urlraw}
+      \verb http://www.kegel.com/c10k.html
+      \endverb
+      \verb{url}
+      \verb http://www.kegel.com/c10k.html
+      \endverb
+    \endentry
+    \entry{kerrisk:linuxapi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7f32f61adec784489cc0fa2cefa610a3}{%
+           family={Kerrisk},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {No Starch Press}%
+      }
+      \strng{namehash}{7f32f61adec784489cc0fa2cefa610a3}
+      \strng{fullhash}{7f32f61adec784489cc0fa2cefa610a3}
+      \strng{bibnamehash}{7f32f61adec784489cc0fa2cefa610a3}
+      \strng{authorbibnamehash}{7f32f61adec784489cc0fa2cefa610a3}
+      \strng{authornamehash}{7f32f61adec784489cc0fa2cefa610a3}
+      \strng{authorfullhash}{7f32f61adec784489cc0fa2cefa610a3}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{1593272200}
+      \field{title}{The Linux Programming Interface: A Linux and UNIX System Programming Handbook}
+      \field{year}{2010}
+      \field{pages}{1245\bibrangessep 1260\bibrangedash 1262\bibrangessep 1370\bibrangedash 1372}
+      \range{pages}{7}
+    \endentry
+    \entry{kleppmann:data}{book}{}
+      \name{author}{1}{}{%
+        {{hash=34b8d5b1d29d175527a6642f3ec8a76d}{%
+           family={Kleppmann},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly}%
+      }
+      \strng{namehash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \strng{fullhash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \strng{bibnamehash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \strng{authorbibnamehash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \strng{authornamehash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \strng{authorfullhash}{34b8d5b1d29d175527a6642f3ec8a76d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781449373320}
+      \field{title}{Designing Data-Intensive Applications}
+      \field{year}{2017}
+      \field{pages}{13\bibrangedash 16\bibrangessep 205}
+      \range{pages}{5}
+    \endentry
+    \entry{kulukundis:swisstable}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=ea22e1fe232c5af416ec1a4015873a64}{%
+           family={Kulukundis},
+           familyi={K\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea22e1fe232c5af416ec1a4015873a64}
+      \strng{fullhash}{ea22e1fe232c5af416ec1a4015873a64}
+      \strng{bibnamehash}{ea22e1fe232c5af416ec1a4015873a64}
+      \strng{authorbibnamehash}{ea22e1fe232c5af416ec1a4015873a64}
+      \strng{authornamehash}{ea22e1fe232c5af416ec1a4015873a64}
+      \strng{authorfullhash}{ea22e1fe232c5af416ec1a4015873a64}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 30-November-2020]}
+      \field{title}{Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=ncHmEUmJZf4
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=ncHmEUmJZf4
+      \endverb
+    \endentry
+    \entry{langdale:simdjson}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cd81ba17408975530bac4b8003da2e35}{%
+           family={Langdale},
+           familyi={L\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1f6f9e460dc1dd070b39d99017deb2c5}{%
+           family={Lemire},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{625ae030f63a68346c903062bf5d04de}
+      \strng{fullhash}{625ae030f63a68346c903062bf5d04de}
+      \strng{bibnamehash}{625ae030f63a68346c903062bf5d04de}
+      \strng{authorbibnamehash}{625ae030f63a68346c903062bf5d04de}
+      \strng{authornamehash}{625ae030f63a68346c903062bf5d04de}
+      \strng{authorfullhash}{625ae030f63a68346c903062bf5d04de}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0949-877X}
+      \field{journaltitle}{The VLDB Journal}
+      \field{month}{10}
+      \field{number}{6}
+      \field{title}{Parsing gigabytes of JSON per second}
+      \field{volume}{28}
+      \field{year}{2019}
+      \field{pages}{941\bibrangedash 960}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s00778-019-00578-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s00778-019-00578-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s00778-019-00578-5
+      \endverb
+    \endentry
+    \entry{lerche:scheduler}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca361bcf4aa1f79ee1c83a1330314ead}{%
+           family={Lerche},
+           familyi={L\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {tokio.rs}%
+      }
+      \strng{namehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{fullhash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{bibnamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authorbibnamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authornamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authorfullhash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 03-January-2021]}
+      \field{title}{{Making the Tokio scheduler 10x faster}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://tokio.rs/blog/2019-10-scheduler
+      \endverb
+      \verb{url}
+      \verb https://tokio.rs/blog/2019-10-scheduler
+      \endverb
+    \endentry
+    \entry{lerche:preemption}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca361bcf4aa1f79ee1c83a1330314ead}{%
+           family={Lerche},
+           familyi={L\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {tokio.rs}%
+      }
+      \strng{namehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{fullhash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{bibnamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authorbibnamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authornamehash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \strng{authorfullhash}{ca361bcf4aa1f79ee1c83a1330314ead}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 03-January-2021]}
+      \field{title}{{Reducing tail latencies with automatic cooperative task yielding}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://tokio.rs/blog/2020-04-preemption
+      \endverb
+      \verb{url}
+      \verb https://tokio.rs/blog/2020-04-preemption
+      \endverb
+    \endentry
+    \entry{majkowski:io_submit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=105297a7cf09fc689c897e362218e80d}{%
+           family={Majkowski},
+           familyi={M\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {blog.cloudflare.com}%
+      }
+      \strng{namehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{fullhash}{105297a7cf09fc689c897e362218e80d}
+      \strng{bibnamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authorbibnamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authornamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authorfullhash}{105297a7cf09fc689c897e362218e80d}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 04-January-2021]}
+      \field{title}{{io\_submit: The epoll alternative you’ve never heard about}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://blog.cloudflare.com/io_submit-the-epoll-alternative-youve-never-heard-about/
+      \endverb
+      \verb{url}
+      \verb https://blog.cloudflare.com/io_submit-the-epoll-alternative-youve-never-heard-about/
+      \endverb
+    \endentry
+    \entry{majkowski:nginx}{online}{}
+      \name{author}{1}{}{%
+        {{hash=105297a7cf09fc689c897e362218e80d}{%
+           family={Majkowski},
+           familyi={M\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {blog.cloudflare.com}%
+      }
+      \strng{namehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{fullhash}{105297a7cf09fc689c897e362218e80d}
+      \strng{bibnamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authorbibnamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authornamehash}{105297a7cf09fc689c897e362218e80d}
+      \strng{authorfullhash}{105297a7cf09fc689c897e362218e80d}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 30-January-2021]}
+      \field{title}{{Why does one NGINX worker take all the load?}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/
+      \endverb
+      \verb{url}
+      \verb https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/
+      \endverb
+    \endentry
+    \entry{mandry:await}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9b143acf7b136c96e00c762f8d4f4c58}{%
+           family={Mandry},
+           familyi={M\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \strng{fullhash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \strng{bibnamehash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \strng{authorbibnamehash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \strng{authornamehash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \strng{authorfullhash}{9b143acf7b136c96e00c762f8d4f4c58}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 30-January-2021]}
+      \field{title}{How Rust optimizes async/await I + II}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://tmandry.gitlab.io/blog/posts/
+      \endverb
+      \verb{url}
+      \verb https://tmandry.gitlab.io/blog/posts/
+      \endverb
+    \endentry
+    \entry{soft:nginx}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=a629e814c18278bdba34f0aac7ca042f}{%
+           family={Nginx},
+           familyi={N\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{fullhash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{bibnamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{editorbibnamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{editornamehash}{a629e814c18278bdba34f0aac7ca042f}
+      \strng{editorfullhash}{a629e814c18278bdba34f0aac7ca042f}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{NGINX}
+      \field{version}{1.19.6}
+      \verb{urlraw}
+      \verb http://hg.nginx.org/nginx/
+      \endverb
+      \verb{url}
+      \verb http://hg.nginx.org/nginx/
+      \endverb
+    \endentry
+    \entry{redis:io_thread}{online}{}
+      \name{author}{1}{}{%
+        {{hash=af6022056306c1f3b48b2223756af82f}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {itnext.io}%
+      }
+      \strng{namehash}{af6022056306c1f3b48b2223756af82f}
+      \strng{fullhash}{af6022056306c1f3b48b2223756af82f}
+      \strng{bibnamehash}{af6022056306c1f3b48b2223756af82f}
+      \strng{authorbibnamehash}{af6022056306c1f3b48b2223756af82f}
+      \strng{authornamehash}{af6022056306c1f3b48b2223756af82f}
+      \strng{authorfullhash}{af6022056306c1f3b48b2223756af82f}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 13-Febuary-2021]}
+      \field{title}{Benchmarking the experimental Redis Multi-Threaded I/O}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://itnext.io/benchmarking-the-experimental-redis-multi-threaded-i-o-1bb28b69a314
+      \endverb
+      \verb{url}
+      \verb https://itnext.io/benchmarking-the-experimental-redis-multi-threaded-i-o-1bb28b69a314
+      \endverb
+    \endentry
+    \entry{polross:bloom}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=da9ddb3d1ca6415fdea4b6cdf2c5df58}{%
+           family={Polychroniou},
+           familyi={P\bibinitperiod},
+           given={Orestis},
+           giveni={O\bibinitperiod}}}%
+        {{hash=086104de2402fc3119dd543cacbc8f6f}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Snowbird, UT, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e8f89c477f845783929fff7e946bdece}
+      \strng{fullhash}{e8f89c477f845783929fff7e946bdece}
+      \strng{bibnamehash}{e8f89c477f845783929fff7e946bdece}
+      \strng{authorbibnamehash}{e8f89c477f845783929fff7e946bdece}
+      \strng{authornamehash}{e8f89c477f845783929fff7e946bdece}
+      \strng{authorfullhash}{e8f89c477f845783929fff7e946bdece}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{DaMoN’14 (10th International Workshop on Data Management on New Hardware (DaMoN 2014), June 22-27 2014}
+      \field{title}{Vectorized Bloom Filters for Advanced SIMD Processors}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://www.cs.columbia.edu/~orestis/damon14.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.cs.columbia.edu/~orestis/damon14.pdf
+      \endverb
+    \endentry
+    \entry{soft:opf}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=e817d280c66f59dc43f40eaaa139613d}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={OpenFastPath},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e817d280c66f59dc43f40eaaa139613d}
+      \strng{fullhash}{e817d280c66f59dc43f40eaaa139613d}
+      \strng{bibnamehash}{e817d280c66f59dc43f40eaaa139613d}
+      \strng{editorbibnamehash}{e817d280c66f59dc43f40eaaa139613d}
+      \strng{editornamehash}{e817d280c66f59dc43f40eaaa139613d}
+      \strng{editorfullhash}{e817d280c66f59dc43f40eaaa139613d}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{OpenFastPath}
+      \field{version}{1}
+      \verb{urlraw}
+      \verb https://github.com/OpenFastPath/ofp
+      \endverb
+      \verb{url}
+      \verb https://github.com/OpenFastPath/ofp
+      \endverb
+    \endentry
+    \entry{schmidt:proactor}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=cb8669c55b74a01cb1b5f33a802b971e}{%
+           family={Pyarali},
+           familyi={P\bibinitperiod},
+           given={Irfan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=453429fc2892320cca37a676ccfea011}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=45ce9ca7bea6c6c26f4b9dedf96373a8}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Douglas\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Allerton Park, Illinois}%
+      }
+      \list{publisher}{1}{%
+        {Department of Computer Science, Washington University, St. Louis, MO}%
+      }
+      \strng{namehash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \strng{fullhash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \strng{bibnamehash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \strng{authorbibnamehash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \strng{authornamehash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \strng{authorfullhash}{bb5cfe4cf714b8ad0a720ef88ded6bd7}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{4th annual Pattern Languages of Programming conference}
+      \field{title}{Proactor: An Object Behavioral Pattern for Demultiplexing and Dispatching Handlers for Asynchronous Events}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://www.dre.vanderbilt.edu/~schmidt/PDF/proactor.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.dre.vanderbilt.edu/~schmidt/PDF/proactor.pdf
+      \endverb
+    \endentry
+    \entry{soft:memtier}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=b4c14229115e10fc40a1daf660198ef2}{%
+           family={RedisLabs},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{fullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{bibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorbibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editornamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorfullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{memtier_benchmark}
+      \field{version}{1.3.0}
+      \verb{urlraw}
+      \verb https://github.com/RedisLabs/memtier_benchmark
+      \endverb
+      \verb{url}
+      \verb https://github.com/RedisLabs/memtier_benchmark
+      \endverb
+    \endentry
+    \entry{soft:redis}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=b4c14229115e10fc40a1daf660198ef2}{%
+           family={RedisLabs},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{fullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{bibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorbibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editornamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorfullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Redis}
+      \field{version}{6.0.9}
+      \verb{urlraw}
+      \verb https://github.com/redis/redis
+      \endverb
+      \verb{url}
+      \verb https://github.com/redis/redis
+      \endverb
+    \endentry
+    \entry{redis:cluster}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b4c14229115e10fc40a1daf660198ef2}{%
+           family={RedisLabs},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {redis.io}%
+      }
+      \strng{namehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{fullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{bibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorbibnamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editornamehash}{b4c14229115e10fc40a1daf660198ef2}
+      \strng{editorfullhash}{b4c14229115e10fc40a1daf660198ef2}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 29-November-2020]}
+      \field{title}{Redis Cluster Specification}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://redis.io/topics/cluster-spec
+      \endverb
+      \verb{url}
+      \verb https://redis.io/topics/cluster-spec
+      \endverb
+    \endentry
+    \entry{cppref:memory_order}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=770d3aa44d1d9abb577e668e2ed7e254}{%
+           family={reference},
+           familyi={r\bibinitperiod},
+           prefix={cpp},
+           prefixi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \strng{fullhash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \strng{bibnamehash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \strng{editorbibnamehash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \strng{editornamehash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \strng{editorfullhash}{770d3aa44d1d9abb577e668e2ed7e254}
+      \field{sortinit}{r}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 13-January-2021]}
+      \field{title}{std::memory\_order}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://en.cppreference.com/w/cpp/atomic/memory_order
+      \endverb
+      \verb{url}
+      \verb https://en.cppreference.com/w/cpp/atomic/memory_order
+      \endverb
+    \endentry
+    \entry{ryhl:async}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1998b45322cade8115b50e5e7248557}{%
+           family={Ryhl},
+           familyi={R\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1998b45322cade8115b50e5e7248557}
+      \strng{fullhash}{e1998b45322cade8115b50e5e7248557}
+      \strng{bibnamehash}{e1998b45322cade8115b50e5e7248557}
+      \strng{authorbibnamehash}{e1998b45322cade8115b50e5e7248557}
+      \strng{authornamehash}{e1998b45322cade8115b50e5e7248557}
+      \strng{authorfullhash}{e1998b45322cade8115b50e5e7248557}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 20-January-2021]}
+      \field{title}{Async: What is blocking?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://ryhl.io/blog/async-what-is-blocking/
+      \endverb
+      \verb{url}
+      \verb https://ryhl.io/blog/async-what-is-blocking/
+      \endverb
+    \endentry
+    \entry{antirez:io_submit2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3214e06899fd8581482a995ced0d1908}{%
+           family={Sanfilippo},
+           familyi={S\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{fullhash}{3214e06899fd8581482a995ced0d1908}
+      \strng{bibnamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authorbibnamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authornamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authorfullhash}{3214e06899fd8581482a995ced0d1908}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{note}{[Online; accessed 05-January-2021]}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://twitter.com/antirez/status/1111165726340075520
+      \endverb
+      \verb{url}
+      \verb https://twitter.com/antirez/status/1111165726340075520
+      \endverb
+    \endentry
+    \entry{antirez:io_threading}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3214e06899fd8581482a995ced0d1908}{%
+           family={Sanfilippo},
+           familyi={S\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{fullhash}{3214e06899fd8581482a995ced0d1908}
+      \strng{bibnamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authorbibnamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authornamehash}{3214e06899fd8581482a995ced0d1908}
+      \strng{authorfullhash}{3214e06899fd8581482a995ced0d1908}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{note}{[Online; accessed 05-February-2021]}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://twitter.com/antirez/status/1110973405539565569
+      \endverb
+      \verb{url}
+      \verb https://twitter.com/antirez/status/1110973405539565569
+      \endverb
+    \endentry
+    \entry{schmidt:reactor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=45ce9ca7bea6c6c26f4b9dedf96373a8}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Douglas\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Department of Computer Science, Washington University, St. Louis, MO}%
+      }
+      \strng{namehash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \strng{fullhash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \strng{bibnamehash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \strng{authorbibnamehash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \strng{authornamehash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \strng{authorfullhash}{45ce9ca7bea6c6c26f4b9dedf96373a8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 21-December-2020]}
+      \field{title}{Reactor: An Object Behavioral Pattern for Demultiplexing and Dispatching Handles for Synchronous Events}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb https://www.dre.vanderbilt.edu/~schmidt/PDF/reactor-siemens.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.dre.vanderbilt.edu/~schmidt/PDF/reactor-siemens.pdf
+      \endverb
+    \endentry
+    \entry{aws:redis}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=4d7e5f784bb5801c23c91ba37ed2649d}{%
+           family={Services},
+           familyi={S\bibinitperiod},
+           given={Amazon\bibnamedelima Web},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {aws.amazon.com}%
+      }
+      \strng{namehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{fullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{bibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{editorbibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{editornamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{editorfullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 01-December-2020]}
+      \field{title}{Amazon ElastiCache for Redis 5.0.3 enhances I/O handling to boost performance}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/about-aws/whats-new/2019/03/amazon-elasticache-for-redis-503-enhances-io-handling-to-boost-performance/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/about-aws/whats-new/2019/03/amazon-elasticache-for-redis-503-enhances-io-handling-to-boost-performance/
+      \endverb
+    \endentry
+    \entry{linux:dpdk}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ec4008e1df315d81754d39b1d5d303ff}{%
+           family={Sosnowski},
+           familyi={S\bibinitperiod},
+           given={Dariusz},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {codilime.com}%
+      }
+      \strng{namehash}{ec4008e1df315d81754d39b1d5d303ff}
+      \strng{fullhash}{ec4008e1df315d81754d39b1d5d303ff}
+      \strng{bibnamehash}{ec4008e1df315d81754d39b1d5d303ff}
+      \strng{authorbibnamehash}{ec4008e1df315d81754d39b1d5d303ff}
+      \strng{authornamehash}{ec4008e1df315d81754d39b1d5d303ff}
+      \strng{authorfullhash}{ec4008e1df315d81754d39b1d5d303ff}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{How can DPDK access devices from user space?}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://codilime.com/how-can-dpdk-access-devices-from-user-space/
+      \endverb
+      \verb{url}
+      \verb https://codilime.com/how-can-dpdk-access-devices-from-user-space/
+      \endverb
+    \endentry
+    \entry{stonebraker:shared_nothing}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9a603143e19a2dddd58e683838417ea3}{%
+           family={Stonebraker},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Berkeley, Ca.}%
+      }
+      \strng{namehash}{9a603143e19a2dddd58e683838417ea3}
+      \strng{fullhash}{9a603143e19a2dddd58e683838417ea3}
+      \strng{bibnamehash}{9a603143e19a2dddd58e683838417ea3}
+      \strng{authorbibnamehash}{9a603143e19a2dddd58e683838417ea3}
+      \strng{authornamehash}{9a603143e19a2dddd58e683838417ea3}
+      \strng{authorfullhash}{9a603143e19a2dddd58e683838417ea3}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 27-December-2020]}
+      \field{title}{The Case for Shared Nothing}
+      \field{year}{1986}
+      \verb{urlraw}
+      \verb https://dsf.berkeley.edu/papers/hpts85-nothing.pdf
+      \endverb
+      \verb{url}
+      \verb https://dsf.berkeley.edu/papers/hpts85-nothing.pdf
+      \endverb
+    \endentry
+    \entry{stroustrup:lists}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4975813514faee20fb6fcdb39a08af6f}{%
+           family={Stroustrup},
+           familyi={S\bibinitperiod},
+           given={Bjarne},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4975813514faee20fb6fcdb39a08af6f}
+      \strng{fullhash}{4975813514faee20fb6fcdb39a08af6f}
+      \strng{bibnamehash}{4975813514faee20fb6fcdb39a08af6f}
+      \strng{authorbibnamehash}{4975813514faee20fb6fcdb39a08af6f}
+      \strng{authornamehash}{4975813514faee20fb6fcdb39a08af6f}
+      \strng{authorfullhash}{4975813514faee20fb6fcdb39a08af6f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 31-January-2021]}
+      \field{title}{Are lists evil?}
+      \verb{urlraw}
+      \verb https://www.stroustrup.com/bs_faq.html#list
+      \endverb
+      \verb{url}
+      \verb https://www.stroustrup.com/bs_faq.html#list
+      \endverb
+    \endentry
+    \entry{soft:keydb}{software}{}
+      \name{author}{1}{}{%
+        {{hash=52a131edd68dad5d47f776470a9b2a91}{%
+           family={Sully},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{52a131edd68dad5d47f776470a9b2a91}
+      \strng{fullhash}{52a131edd68dad5d47f776470a9b2a91}
+      \strng{bibnamehash}{52a131edd68dad5d47f776470a9b2a91}
+      \strng{authorbibnamehash}{52a131edd68dad5d47f776470a9b2a91}
+      \strng{authornamehash}{52a131edd68dad5d47f776470a9b2a91}
+      \strng{authorfullhash}{52a131edd68dad5d47f776470a9b2a91}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{KeyDB}
+      \field{version}{6.0.16}
+      \verb{urlraw}
+      \verb https://github.com/JohnSully/KeyDB
+      \endverb
+      \verb{url}
+      \verb https://github.com/JohnSully/KeyDB
+      \endverb
+    \endentry
+    \entry{sutter:free_lunch}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1fc2b577689be883fe16f8ef59ed0c4}{%
+           family={Sutter},
+           familyi={S\bibinitperiod},
+           given={Herb},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \strng{fullhash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \strng{bibnamehash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \strng{authorbibnamehash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \strng{authornamehash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \strng{authorfullhash}{d1fc2b577689be883fe16f8ef59ed0c4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 20-December-2020]}
+      \field{title}{{The Free Lunch Is Over}}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://www.gotw.ca/publications/concurrency-ddj.htm
+      \endverb
+      \verb{url}
+      \verb http://www.gotw.ca/publications/concurrency-ddj.htm
+      \endverb
+    \endentry
+    \entry{soft:libuv}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=27958bb6b92d16babdfde8c7e8abd700}{%
+           family={team},
+           familyi={t\bibinitperiod},
+           prefix={libuv},
+           prefixi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{27958bb6b92d16babdfde8c7e8abd700}
+      \strng{fullhash}{27958bb6b92d16babdfde8c7e8abd700}
+      \strng{bibnamehash}{27958bb6b92d16babdfde8c7e8abd700}
+      \strng{editorbibnamehash}{27958bb6b92d16babdfde8c7e8abd700}
+      \strng{editornamehash}{27958bb6b92d16babdfde8c7e8abd700}
+      \strng{editorfullhash}{27958bb6b92d16babdfde8c7e8abd700}
+      \field{sortinit}{t}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{libuv}
+      \field{version}{1.40.0}
+      \verb{urlraw}
+      \verb https://github.com/libuv/libuv
+      \endverb
+      \verb{url}
+      \verb https://github.com/libuv/libuv
+      \endverb
+    \endentry
+    \entry{soft:miniredis}{software}{}
+      \name{editor}{1}{}{%
+        {{hash=b54588705cfffac00a3d9bcd4652122c}{%
+           family={tokio-rs},
+           familyi={t\bibinithyphendelim r\bibinitperiod}}}%
+      }
+      \strng{namehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{fullhash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{bibnamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editorbibnamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editornamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editorfullhash}{b54588705cfffac00a3d9bcd4652122c}
+      \field{extraname}{1}
+      \field{sortinit}{t}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Mini-Redis}
+      \field{version}{Tokio 1.2}
+      \verb{urlraw}
+      \verb https://github.com/tokio-rs/mini-redis
+      \endverb
+      \verb{url}
+      \verb https://github.com/tokio-rs/mini-redis
+      \endverb
+    \endentry
+    \entry{doc:tokio_task}{manual}{}
+      \name{editor}{1}{}{%
+        {{hash=b54588705cfffac00a3d9bcd4652122c}{%
+           family={tokio-rs},
+           familyi={t\bibinithyphendelim r\bibinitperiod}}}%
+      }
+      \strng{namehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{fullhash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{bibnamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editorbibnamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editornamehash}{b54588705cfffac00a3d9bcd4652122c}
+      \strng{editorfullhash}{b54588705cfffac00a3d9bcd4652122c}
+      \field{extraname}{2}
+      \field{sortinit}{t}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 02-February-2021]}
+      \field{title}{Module tokio::task}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://docs.rs/tokio/1.1.0/tokio/task/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.rs/tokio/1.1.0/tokio/task/index.html
+      \endverb
+    \endentry
+    \entry{torvalds:spinlock}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=d17810e1c711d76f64612b80b3ba67e9}{%
+           family={Torvalds},
+           familyi={T\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{fullhash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{bibnamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authorbibnamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authornamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authorfullhash}{d17810e1c711d76f64612b80b3ba67e9}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 30-January-2021]}
+      \field{title}{No nuances, just buggy code (was: related to Spinlock implementation and the Linux Scheduler)}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723
+      \endverb
+      \verb{url}
+      \verb https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723
+      \endverb
+    \endentry
+    \entry{turner:retpoline}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9166bc1dc6c1e230ceef6e3566a43f32}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {support.google.com}%
+      }
+      \strng{namehash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \strng{fullhash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \strng{bibnamehash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \strng{authorbibnamehash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \strng{authornamehash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \strng{authorfullhash}{9166bc1dc6c1e230ceef6e3566a43f32}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 05-January-2021]}
+      \field{title}{{Retpoline: a software construct for preventing branch-target-injection}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://support.google.com/faqs/answer/7625886
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/faqs/answer/7625886
+      \endverb
+    \endentry
+    \entry{eerd:queue}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1a6012220cd60d9c36e74e092a98bb83}{%
+           family={Van\bibnamedelima Eerd},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a6012220cd60d9c36e74e092a98bb83}
+      \strng{fullhash}{1a6012220cd60d9c36e74e092a98bb83}
+      \strng{bibnamehash}{1a6012220cd60d9c36e74e092a98bb83}
+      \strng{authorbibnamehash}{1a6012220cd60d9c36e74e092a98bb83}
+      \strng{authornamehash}{1a6012220cd60d9c36e74e092a98bb83}
+      \strng{authorfullhash}{1a6012220cd60d9c36e74e092a98bb83}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 29-November-2020]}
+      \field{title}{An Interesting Lock-free Queue - Part 2 of N}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=HP2InVqgBFM
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=HP2InVqgBFM
+      \endverb
+    \endentry
+    \entry{github:io_uring_bench}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c9aec541992f975db64151fd5fc9755c}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Hielke},
+           giveni={H\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9aec541992f975db64151fd5fc9755c}
+      \strng{fullhash}{c9aec541992f975db64151fd5fc9755c}
+      \strng{bibnamehash}{c9aec541992f975db64151fd5fc9755c}
+      \strng{authorbibnamehash}{c9aec541992f975db64151fd5fc9755c}
+      \strng{authornamehash}{c9aec541992f975db64151fd5fc9755c}
+      \strng{authorfullhash}{c9aec541992f975db64151fd5fc9755c}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 05-January-2021]}
+      \field{title}{{io\_uring bare minimum echo server}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://github.com/frevib/io_uring-echo-server
+      \endverb
+      \verb{url}
+      \verb https://github.com/frevib/io_uring-echo-server
+      \endverb
+    \endentry
+    \entry{techempower:tokio}{online}{}
+      \list{publisher}{1}{%
+        {techempower.com}%
+      }
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 16-Febuary-2021]}
+      \field{title}{Web Framework Benchmarks - Round 20}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune
+      \endverb
+      \verb{url}
+      \verb https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,48 @@
+\begin{lstlisting}
+while !shutdown:
+    handle_pending_reads_using_threads(global_read_queue)
+    handle_pending_writes_using_threads(global_write_queue)
+    # using stateful event notification interface e.g. epoll
+    events = stateful_poll_wait(stateful_poll_fd, timeout)
+    for event in events:
+        if event.fd == listener_fd:
+            event.fd.accept()
+        if event.mask & READABLE:
+            # will postpone read if I/O threads active
+            connections[event.fd].handle_read_event()
+        if event.mask & WRITABLE:
+            # interest is registered (rarely) if write was previously blocking
+            # due to level-triggered notifications
+            connections[event.fd].handle_write_event()
+
+# producer side (main thread)
+handle_pending_writes_using_threads(global_write_queue):
+    i = 0
+    # distribute work
+    for write_task in global_write_queue:
+        thread_queues[i++ % thread_count].push_back(write_task)
+    # "fan-out" - give the go to the worker I/O threads
+    for thread_id = 0; thread < thread_count; thread_id++:
+        thread_pending[thread_id].atomic_store(thread_queues[thread_id].length)
+    # meanwhile main thread (id = 0) handles its slice
+    while write_task = thread_queues[0].pop():
+        handle_pending_write(write_task)
+        thread_pending[0]--
+    # "join" - busy-waiting for the other threads to finish their work
+    while sum(thread_pending) != 0
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}
+# consumer side (spinning worker threads)
+thread_create(
+    # note: in the real implementation this thread can be blocked
+    # by a mutex that is controlled by the main thread
+    while True:
+        # busy-waiting for write task from the queue
+        while thread_pending[thread_id].atomic_load() == 0
+        # thread handles its slice
+        while write_task = thread_queues[thread_id].pop():
+            handle_pending_write(write_task)
+            thread_pending[thread_id]--
+, thread_count - 1)
+\end{lstlisting}

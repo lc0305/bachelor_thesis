@@ -1,0 +1,15 @@
+\begin{table}
+    \centering
+    \begin{tabular}{c|cccc}
+        \toprule
+        Percentile & Redis (I/O threading) & KeyDB & Mini-Redis (Tokio) & Redis Cluster \\
+        \midrule
+            P95 &  -37\% &  -58\% &               -29\% &           58\% \\
+            P99 &  -39\% &  -60\% &               -33\% &           52\% \\
+            P99.9 &  -36\% &  -65\% &               -70\% &           40\% \\
+            P99.99 &  -38\% &  -53\% &               -77\% &           31\% \\
+        \bottomrule
+    \end{tabular}        
+    \caption{Average (mean) response time percentile differences compared to reference point (single-threaded Redis) (Lower percentage is better)}
+    \label{tbl:table_avg_latency}
+\end{table}

@@ -1,0 +1,34 @@
+\begin{lstlisting}
+thread_create(
+        while !shutdown:
+            # poll on each (probably) ready future
+            # for progress until the run queue is empty
+            while task = run_queue.pop():
+                task.future.poll(&context)
+                # as long as there is budget remaining and
+                # a task exists in the "lifo_slot" keep polling.
+                budget = INITIAL_BUDGET
+                while lifo_task = lifo_slot.take():
+                    if !budget--:
+                        run_queue.push_back(lifo_task)
+                        break
+                    lifo_task.future.poll(&context)
+            # try stealing work from the other workers
+            if try_steal_into(&run_queue):
+                # if successful continue
+                continue
+            # check for work in the global queue
+            if task_global = global_queue.pop():
+                # if successful continue
+                run_queue.push_back(task_global)
+                continue
+            # using stateful event notification interface e.g. epoll
+            # reactor with shared stateful_poll instance
+            # on event on fd wake the corresponding tasks
+            events = stateful_poll_wait(stateful_poll_fd, timeout)
+            for event in events:
+                # wake will push each associated task into the
+                # run queue of the responsible worker
+                global_scheduled_io_ressources[event].wake()
+, thread_count)
+\end{lstlisting}

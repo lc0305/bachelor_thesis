@@ -1,0 +1,172 @@
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+    \bf{Response times: Threads = 1} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_1_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_1_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_1_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Response time percentiles with varying client configurations and 1 thread.}
+    \label{tbl:table_of_figures_t1}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+    \bf{Response times: Threads = 2} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_2_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_2_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_2_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Response time percentiles with varying client configurations and 2 threads.}
+    \label{tbl:table_of_figures_t2}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+    \bf{Response times: Threads = 4} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_4_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_4_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_4_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Response time percentiles with varying client configurations and 4 threads.}
+    \label{tbl:table_of_figures_t4}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+        \toprule
+        \bf{Response times: Threads = 8} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_8_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_8_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_8_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Response time percentiles with varying client configurations and 8 threads.}
+    \label{tbl:table_of_figures_t8}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+    \bf{Response times: Threads = 12} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_12_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_12_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/latencies/latencies_threads_12_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Response time percentiles with varying client configurations and 12 threads.}
+    \label{tbl:table_of_figures_t12}
+\end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}
+        \centering
+        \begin{tabular}{|>{\centering\arraybackslash} m{2cm} |>{\centering\arraybackslash} m{10cm}|}
+        \toprule
+        \bf{Clients} & \shortstack[c]{\bf{95th percentile response time (P95)} \\ compared to reference point in \% (single-threaded Redis)} \\
+            \midrule
+            \bf{24} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.95_clients_1.pgf}} \\
+            \hline
+            \bf{96} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.95_clients_4.pgf}} \\
+            \hline
+            %\bf{192} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.95_clients_8.pgf}} \\
+            \bf{384} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.95_clients_16.pgf}} \\
+            \hline
+            \bf{768} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.95_clients_32.pgf}} \\
+            \bottomrule
+        \end{tabular}
+        \caption{95th percentile response time compared to reference point (single-threaded Redis) in \% (Lower percentage is better).}
+        \label{tbl:table_of_figures_95_response_times}
+    \end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}
+        \centering
+        \begin{tabular}{|>{\centering\arraybackslash} m{2cm} |>{\centering\arraybackslash} m{10cm}|}
+        \toprule
+        \bf{Clients} & \shortstack[c]{\bf{99th percentile response time (P99)} \\ compared to reference point in \% (single-threaded Redis)} \\
+            \midrule
+            \bf{24} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.99_clients_1.pgf}} \\
+            \hline
+            \bf{96} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.99_clients_4.pgf}} \\
+            \hline
+            %\bf{192} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.99_clients_8.pgf}} \\
+            \bf{384} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.99_clients_16.pgf}} \\
+            \hline
+            \bf{768} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.99_clients_32.pgf}} \\
+            \bottomrule
+        \end{tabular}
+        \caption{99th percentile response time compared to reference point (single-threaded Redis) in \% (Lower percentage is better).}
+        \label{tbl:table_of_figures_99_response_times}
+    \end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}
+        \centering
+        \begin{tabular}{|>{\centering\arraybackslash} m{2cm} |>{\centering\arraybackslash} m{10cm}|}
+        \toprule
+        \bf{Clients} & \shortstack[c]{\bf{99.9th percentile response time (P99.9)} \\ compared to reference point in \% (single-threaded Redis)} \\
+            \midrule
+            \bf{24} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.999_clients_1.pgf}} \\
+            \hline
+            \bf{96} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.999_clients_4.pgf}} \\
+            \hline
+            %\bf{192} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.999_clients_8.pgf}} \\
+            \bf{384} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.999_clients_16.pgf}} \\
+            \hline
+            \bf{768} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.999_clients_32.pgf}} \\
+            \bottomrule
+        \end{tabular}
+        \caption{99.9th percentile response time compared to reference point (single-threaded Redis) in \% (Lower percentage is better).}
+        \label{tbl:table_of_figures_999_response_times}
+    \end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}
+        \centering
+        \begin{tabular}{|>{\centering\arraybackslash} m{2cm} |>{\centering\arraybackslash} m{10cm}|}
+        \toprule
+        \bf{Clients} & \shortstack[c]{\bf{99.99th percentile response time (P99.99)} \\ compared to reference point in \% (single-threaded Redis)} \\
+            \midrule
+            \bf{24} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.9999_clients_1.pgf}} \\
+            \hline
+            \bf{96} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.9999_clients_4.pgf}} \\
+            \hline
+            %\bf{192} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.9999_clients_8.pgf}} \\
+            \bf{384} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.9999_clients_16.pgf}} \\
+            \hline
+            \bf{768} & \scalebox{0.5}{\input{./figs/latencies_heatmap/latencies_percentile_0.9999_clients_32.pgf}} \\
+            \bottomrule
+        \end{tabular}
+        \caption{99.99th percentile response time compared to reference point (single-threaded Redis) in \% (Lower percentage is better).}
+        \label{tbl:table_of_figures_9999_response_times}
+    \end{table}
+\end{center}

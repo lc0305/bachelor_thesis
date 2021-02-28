@@ -1,0 +1,41 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Simplified schematic of producer-consumer I/O threading in Redis.}}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-2}{\ignorespaces Simplified pseudocode for producer-consumer I/O threading in Redis.}}{50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-3}{\ignorespaces Simplified schematic of one worker in KeyDB's multithreaded event loop(s).}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-4}{\ignorespaces Simplified pseudocode for KeyDB's multithreaded event loop(s).}}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-5}{\ignorespaces Simplified schematic of Tokio's main components and the different worker states.}}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Simplified pseudocode for Tokio's work stealing scheduler.}}{58}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-1}{\ignorespaces Histogram of time required for executing "writeToClient" function with varying payloads in Redis.}}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-2}{\ignorespaces Approximate speedup of Redis with I/O threading (p=0.8), KeyDB (p=0.93) and Redis Cluster (p=1) according to Amdahl's law.}}{71}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-1}{\ignorespaces Average (mean) throughput of Redis, KeyDB, Mini-Redis and Redis Cluster with varying thread counts.}}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-2}{\ignorespaces Average (mean) throughput compared to reference point (single-threaded Redis) in \% (higher is better).}}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-3}{\ignorespaces Average (mean) response time percentiles compared to reference point (single-threaded Redis) in \% (lower is better).}}{95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-4}{\ignorespaces Average (mean) response time percentiles without Mini-Redis' outliers compared to reference point in \% (lower is better).}}{96}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

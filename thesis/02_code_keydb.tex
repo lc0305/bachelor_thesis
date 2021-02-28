@@ -1,0 +1,23 @@
+\begin{lstlisting}
+thread_create(
+        while !shutdown:
+            # process pending writes from queue
+            # on EAGAIN install write handler
+            handle_pending_writes(event_loops[thread_id].write_queue)
+            # using stateful event notification interface e.g. epoll
+            # each worker thread runs its own event loop with a dedicated stateful_poll instance
+            events = stateful_poll_wait(event_loops[thread_id].stateful_poll_fd, timeout)
+            # synchronous event demultiplexing
+            for event in events:
+                if event.fd == event_loops[thread_id].listener_fd:
+                    # distributes connections to matching thread
+                    event.fd.accept_on_thread()
+                if event.mask & READABLE:
+                    # when query is executed push result into the pending write queue
+                    event_loops[thread_id].connections[event.fd].handle_read_event()
+                if event.mask & WRITABLE:
+                    # interest is registered (rarely) if write was
+                    # previously blocking due to level-triggered notifications
+                    event_loops[thread_id].connections[event.fd].handle_write_event()
+, thread_count)
+\end{lstlisting}

@@ -1,0 +1,70 @@
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+        \bf{Throughput: Threads = 1 - 4} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/throughput_threads/throughput_threads_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/throughput_threads/throughput_threads_2.pgf}} \\
+        \scalebox{0.5}{\input{./figs/throughput_threads/throughput_threads_4.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Throughput with varying client configurations and 1-4 threads.}
+    \label{tbl:table_of_figures_throughput_t1}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+        \bf{Throughput: Threads = 8 - 12} \\
+        \midrule
+        \scalebox{0.5}{\input{./figs/throughput_threads/throughput_threads_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/throughput_threads/throughput_threads_12.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Throughput with varying client configurations and 8-12 threads.}
+    \label{tbl:table_of_figures_throughput_t2}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{c}
+    \toprule
+        \bf{Throughput: Clients = 24 - 768 }\\
+        \midrule
+        \scalebox{0.5}{\input{./figs/throughput_clients/throughput_clients_1.pgf}} \\
+        \scalebox{0.5}{\input{./figs/throughput_clients/throughput_clients_8.pgf}} \\
+        \scalebox{0.5}{\input{./figs/throughput_clients/throughput_clients_32.pgf}} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Throughput with varying client configurations and 1-12 threads.}
+    \label{tbl:table_of_figures_throughput_clients}
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \centering
+    \begin{tabular}{|>{\centering\arraybackslash} m{2cm} |>{\centering\arraybackslash} m{10cm}|}
+    \toprule
+    \bf{Clients} & \shortstack[c]{\bf{Throughput (in \%)} \\ compared to reference point (single-threaded Redis)} \\
+    \midrule
+        \bf{24} & \scalebox{0.5}{\input{./figs/throughput_heatmap/throughput_clients_1.pgf}} \\
+        \hline 
+        \bf{96} & \scalebox{0.5}{\input{./figs/throughput_heatmap/throughput_clients_4.pgf}} \\
+        \hline 
+        \bf{192} & \scalebox{0.5}{\input{./figs/throughput_heatmap/throughput_clients_8.pgf}} \\
+        \hline 
+        \bf{768} & \scalebox{0.5}{\input{./figs/throughput_heatmap/throughput_clients_32.pgf}} \\
+    \bottomrule
+    \end{tabular}
+    \caption{Throughput compared to reference point (single-threaded Redis) in \% (Higher percentage is better).}
+    \label{tbl:table_of_figures_throughput_tables}
+\end{table}
+\end{center}
